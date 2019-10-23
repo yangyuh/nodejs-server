@@ -9,3 +9,5 @@ app.use(express.static(path.join(__dirname, 'dist')));
 app.listen(3001,function(){
 	console.log("server start in 3001" )
 })
+
+
